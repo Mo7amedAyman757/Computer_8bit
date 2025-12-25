@@ -19,6 +19,12 @@ oparand from the data portion of memory
 
 <img width="655" height="459" alt="Screenshot 2025-12-25 164645" src="https://github.com/user-attachments/assets/885927f5-7172-46ba-b865-6ae3dcf7968c" />
 
+### 🧠 Indirect address
+It is sometimes convenient to use the address bits of instruction code not as an address but as the actual operand. When the second part of an
+instruction code specifies an oparand, the instruction is said to have an immediate operand. When the second part specifies the address of an 
+operand, the instruction is said to have a direct address. This is in contrast to a third possibility called indirect address, where the bits in
+the second part of the instruction designate an address of a memory word which the address of the address of the operand.
+One bit is of the instruction code can be used to distinguish between a direct and indirect address.
 
 
-
+<img width="693" height="715" alt="Screenshot 2025-12-25 170645" src="https://github.com/user-attachments/assets/14993b34-f0a8-4fcc-910d-c59fd96b3281" />
