@@ -13,4 +13,6 @@ We have a memory (4KB x 16) of 4096 locations (4KB) so we need 12-bits to specif
 If we store each instruction code in one 16-bit memory word, we have available 4 bits for the operation code.
 The control reads a 16-bit from the program portion of memory. It uses the 12-bit address part of the instruction to read a 16-bit
 oparand from the data portion of memory
+
+
 <img width="655" height="459" alt="Screenshot 2025-12-25 164645" src="https://github.com/user-attachments/assets/885927f5-7172-46ba-b865-6ae3dcf7968c" />
