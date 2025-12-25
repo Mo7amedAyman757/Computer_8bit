@@ -64,3 +64,38 @@ The total number of instruction chosen for the basic computer is equal to 25:
 
 <img width="545" height="639" alt="Screenshot 2025-12-26 002849" src="https://github.com/user-attachments/assets/126d1e76-fdc1-4719-bf1e-5c77a1ee4bfb" />
 
+
+## 🧠 Timing and Control
+
+The timing for all registers in the basic computer is controlled by a master clock generator. The clock pulse are aplied to all flip-flops and registers 
+in the systems, including the flip-flops and registers in the control unit.
+The control signals are generated in the control unit and provide control inputs for common bus, processor registers, and microoperations for the accumulator.
+We have two majors types of control organization:
+  - hardwired control
+  - microprogrammed control
+
+  ### hardwired control
+  The control logic is implemented with gates, flip-flops, decoders and other digital logic. It has advantage as it produces a fast mode operation but it
+  requires changes in the wiring among the various component if the design has to bo modified or changed.
+
+  ### microprogrammed control
+  The control logic is stored in a control memory. The control memory is programmed to initiate the required sequence of microoperations. It has advantage as 
+  any required changes or modifications can be done by updating the microprogram in control memory
+
+## 🧠 Control unit
+
+The first building block consists of 2 decoders, a sequence counter, and a number of control logic gates.
+The instruction register is divided into 3 parts: the I-bit, the operation code, and bits 0 through 11. The opartion code in bits 12 through 14 are decoded
+with a 3x8 decoder. The 8-outputs of the decoder are designated by the symbol D0 through D7. Bit-15 of the instruction is transferred to a flip-flop designated
+by the symbol I. Bits 0 through 11 are applied to the control logic gates.
+The 4-bit sequence counter can count in binary from 0 through 15. The outputs of the counter are decoded into 16 timing signals T0 through T15.
+
+
+<img width="683" height="701" alt="Screenshot 2025-12-26 012029" src="https://github.com/user-attachments/assets/4c9c8690-75ae-4a8c-bb5b-84e285f29324" />
+
+
+The waveform of control timing signals:
+
+
+<img width="624" height="543" alt="Screenshot 2025-12-26 012216" src="https://github.com/user-attachments/assets/91cfd704-d224-4c4c-b4e6-ec4c7ccc88b1" />
+
