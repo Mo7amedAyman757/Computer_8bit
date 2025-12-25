@@ -52,4 +52,8 @@ efficient.
 <img width="827" height="554" alt="Screenshot 2025-12-25 180106" src="https://github.com/user-attachments/assets/0ee62892-7c79-4e89-8be2-a1c636f87d3f" />
 
 
-
+## 🧠 Computer Instruction
+The basic computer has three instruction format. Each format has 16-bits. The operation code part of the instruction contains 3-bits and the meaning of 
+the remaining 13-bits depends on the code encountered. 
+We have 3 instruction format:
+  - Memory reference instruction uses 12-bits to specify an address and the MSB to speicfy the addressing mode.
