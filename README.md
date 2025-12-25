@@ -31,16 +31,11 @@ One bit is of the instruction code can be used to distinguish between a direct a
 
 ## 🧠 Computer Registers
 The computer needs processor registers for manipulating data and a register for holding a memory address.
-List of registers for the Basic Computer
-| Register symbol | Number of bits | Register name        | Function
-|      DR         |      16        | Data register        | Hold memory operand
-|      AR         |      12        | Address register     | Hold Address of memory
-|      AC         |      16        | Accumulator          | processor register
-|      IR         |      16        | Instruction register | Hold Instruction code
-|      PC         |      12        | Program counter      | Hold address of instruction
-|      TR         |      16        | Temporary register   | Hold Temporary data
-|      INPR       |      8         | Input register       | Hold input character
-|      OUTR       |      8         | Output register      | Hold output character
+List of registers for the Basic Computer:
+
+
+<img width="573" height="243" alt="Screenshot 2025-12-25 223054" src="https://github.com/user-attachments/assets/fadd7372-5524-4e41-8232-a14b2aa46bd4" />
+
 
 ## 🧠 Complete scheme for the connection of the registers and memory of the basic computer to a common bus system
 
@@ -57,3 +52,15 @@ The basic computer has three instruction format. Each format has 16-bits. The op
 the remaining 13-bits depends on the code encountered. 
 We have 3 instruction format:
   - Memory reference instruction uses 12-bits to specify an address and the MSB to speicfy the addressing mode.
+  - Register reference instruction are recognised by the operation code 111 with a 0 in the MSB (bit-15) of the instruction.
+  - Input-Output instruction is recognised by the operation code 111 with a 1 in the MSB (bit-15) of the instruction.
+
+
+    <img width="535" height="326" alt="Screenshot 2025-12-26 002653" src="https://github.com/user-attachments/assets/4d602765-7267-48e5-9018-7d1a75cf2586" />
+
+
+The total number of instruction chosen for the basic computer is equal to 25:
+
+
+<img width="545" height="639" alt="Screenshot 2025-12-26 002849" src="https://github.com/user-attachments/assets/126d1e76-fdc1-4719-bf1e-5c77a1ee4bfb" />
+
