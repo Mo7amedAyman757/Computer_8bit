@@ -28,3 +28,28 @@ One bit is of the instruction code can be used to distinguish between a direct a
 
 
 <img width="693" height="715" alt="Screenshot 2025-12-25 170645" src="https://github.com/user-attachments/assets/14993b34-f0a8-4fcc-910d-c59fd96b3281" />
+
+## 🧠 Computer Registers
+The computer needs processor registers for manipulating data and a register for holding a memory address.
+List of registers for the Basic Computer
+| Register symbol | Number of bits | Register name        | Function
+|      DR         |      16        | Data register        | Hold memory operand
+|      AR         |      12        | Address register     | Hold Address of memory
+|      AC         |      16        | Accumulator          | processor register
+|      IR         |      16        | Instruction register | Hold Instruction code
+|      PC         |      12        | Program counter      | Hold address of instruction
+|      TR         |      16        | Temporary register   | Hold Temporary data
+|      INPR       |      8         | Input register       | Hold input character
+|      OUTR       |      8         | Output register      | Hold output character
+
+## 🧠 Complete scheme for the connection of the registers and memory of the basic computer to a common bus system
+
+Paths must be provided to transfer information from one register to another and between memory and registers. The number
+of wire will be excessive if connections are made between the outputs of each register and the inputs of the other registers.
+We will know how to construct a bus system using multiplexers or three-state buffer gates to make the connections are more 
+efficient.
+
+<img width="827" height="554" alt="Screenshot 2025-12-25 180106" src="https://github.com/user-attachments/assets/0ee62892-7c79-4e89-8be2-a1c636f87d3f" />
+
+
+
