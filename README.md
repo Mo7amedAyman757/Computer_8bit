@@ -99,3 +99,14 @@ The waveform of control timing signals:
 
 <img width="624" height="543" alt="Screenshot 2025-12-26 012216" src="https://github.com/user-attachments/assets/91cfd704-d224-4c4c-b4e6-ec4c7ccc88b1" />
 
+
+## 🧠 Design of Basic Computer
+The basic computer consists of the following hardware components:
+ 1- Memory unit with 4095 words of 16-bit each
+ 2- Eight registers: AR, PC, DR, AC, IR, TR, OUTR, INPR
+ 3- Seven flip-flops: I, S, E, R, IEN, FGI and FGO
+ 4- Two decoders: 3x8 operation decoder and 4x16 timing decoder
+ 5- 16-bit common bus
+ 6- control logic gates
+ 7- Adder and logic circuit connected to the input of AC
+
