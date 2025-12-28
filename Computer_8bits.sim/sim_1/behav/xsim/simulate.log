@@ -1,2 +1,7 @@
 Time resolution is 1 ps
-$stop called at time : 160 ns : File "D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sim_1/new/JK_ff_tb.v" Line 67
+TEST 1: Enable Interrupts
+TEST 2: FGI triggers interrupt
+TEST 3: FGO triggers interrupt
+TEST 4: Interrupt disabled
+Simulation completed successfully.
+$stop called at time : 480 ns : File "D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sim_1/new/interrupt_tb.v" Line 134
