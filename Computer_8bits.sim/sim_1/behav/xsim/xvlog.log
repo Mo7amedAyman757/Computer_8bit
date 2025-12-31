@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Adder_logic_circuit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_logic_circuit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sim_1/new/Adder_logic_circuit_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_logic_circuit_tb
