@@ -29,8 +29,13 @@ module memory
     input [ADDR_WIDTH-1 : 0] ADDR,
     output reg [DATA_WIDTH-1 : 0] D_out
     );
+    
     localparam DEPTH = 1 << ADDR_WIDTH;
     reg [DATA_WIDTH-1 : 0] mem [0: DEPTH -1];
+    
+    initial begin
+        $readmemh("mem_txt.txt",mem);
+    end
     
     always @(posedge clk) begin
         // WRITE

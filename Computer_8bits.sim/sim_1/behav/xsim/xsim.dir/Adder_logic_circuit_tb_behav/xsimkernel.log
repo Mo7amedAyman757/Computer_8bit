@@ -2,3 +2,6 @@ Running: xsim.dir/Adder_logic_circuit_tb_behav/xsimk.exe -simmode gui -wdb Adder
 Design successfully loaded
 Design Loading Memory Usage: 13688 KB (Peak: 13688 KB)
 Design Loading CPU Usage: 77 ms
+Simulation completed
+Simulation Memory Usage: 14752 KB (Peak: 14752 KB)
+Simulation CPU Usage: 124 ms

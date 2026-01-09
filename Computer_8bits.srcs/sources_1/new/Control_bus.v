@@ -22,7 +22,7 @@
 
 module Control_bus
     #(parameter mux = 16, encod = 8)(
-        input [encod-1:0] x,
+        input [encod-1:0] xc,
         input [mux-1 : 0] In0, In1, In2, In3, In4, In5, In6, In7,
         input EN,
         output [mux-1 : 0] y
@@ -31,7 +31,7 @@ module Control_bus
     wire [$clog2(encod)-1 : 0] sel;
     
     Generic_encoder #(.N(encod)) uut1(
-        .x(x),
+        .x(xc),
         .EN(EN),
         .y(sel)
     );

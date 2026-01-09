@@ -1,0 +1,356 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Fri Jan  9 14:01:43 2026
+# Process ID         : 24060
+# Current directory  : D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.runs/synth_1
+# Command line       : vivado.exe -log Mano_8bit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Mano_8bit.tcl
+# Log file           : D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.runs/synth_1/Mano_8bit.vds
+# Journal file       : D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.runs/synth_1\vivado.jou
+# Running On         : MohamedAyman
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 5800H with Radeon Graphics         
+# CPU Frequency      : 3194 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 14877 MB
+# Swap memory        : 5905 MB
+# Total Virtual      : 20782 MB
+# Available Virtual  : 5474 MB
+#-----------------------------------------------------------
+source Mano_8bit.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 599.793 ; gain = 216.621
+Command: read_checkpoint -auto_incremental -incremental {D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/utils_1/imports/synth_1/Mano_8bit.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/utils_1/imports/synth_1/Mano_8bit.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top Mano_8bit -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 25324
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1108.660 ; gain = 496.176
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'bus_out', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:50]
+INFO: [Synth 8-11241] undeclared symbol 'AR_reg', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:51]
+INFO: [Synth 8-11241] undeclared symbol 'in_reg', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:63]
+INFO: [Synth 8-11241] undeclared symbol 'DR_reg', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:64]
+INFO: [Synth 8-11241] undeclared symbol 'AC_reg', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:65]
+INFO: [Synth 8-11241] undeclared symbol 'OP_code', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:84]
+INFO: [Synth 8-11241] undeclared symbol 'I_signal', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:85]
+INFO: [Synth 8-11241] undeclared symbol 'R_signal', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:88]
+INFO: [Synth 8-11241] undeclared symbol 'FGI_signal', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:90]
+INFO: [Synth 8-11241] undeclared symbol 'FGO_signal', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:91]
+INFO: [Synth 8-11241] undeclared symbol 'bus_sel', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:97]
+INFO: [Synth 8-11241] undeclared symbol 'Bus_enable', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:98]
+INFO: [Synth 8-11241] undeclared symbol 'OP_en', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:99]
+INFO: [Synth 8-11241] undeclared symbol 'I_enable', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:100]
+INFO: [Synth 8-11241] undeclared symbol 'AR_LD', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:103]
+INFO: [Synth 8-11241] undeclared symbol 'AR_INC', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:104]
+INFO: [Synth 8-11241] undeclared symbol 'AR_CLR', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:105]
+INFO: [Synth 8-11241] undeclared symbol 'PC_LD', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:106]
+INFO: [Synth 8-11241] undeclared symbol 'PC_INC', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:107]
+INFO: [Synth 8-11241] undeclared symbol 'PC_CLR', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:108]
+INFO: [Synth 8-11241] undeclared symbol 'DR_LD', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:109]
+INFO: [Synth 8-11241] undeclared symbol 'DR_INC', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:110]
+INFO: [Synth 8-11241] undeclared symbol 'AC_LD', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:111]
+INFO: [Synth 8-11241] undeclared symbol 'AC_INC', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:112]
+INFO: [Synth 8-11241] undeclared symbol 'AC_CLR', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:113]
+INFO: [Synth 8-11241] undeclared symbol 'IR_LD', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:114]
+INFO: [Synth 8-11241] undeclared symbol 'TR_LD', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:115]
+INFO: [Synth 8-11241] undeclared symbol 'E_clear', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:127]
+INFO: [Synth 8-11241] undeclared symbol 'LD_INPR', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:134]
+INFO: [Synth 8-11241] undeclared symbol 'LD_OUTR', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:135]
+INFO: [Synth 8-11241] undeclared symbol 'HLT_Signal', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:141]
+INFO: [Synth 8-11241] undeclared symbol 'CLR_FGI', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:143]
+INFO: [Synth 8-11241] undeclared symbol 'CLR_FGO', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:144]
+INFO: [Synth 8-11241] undeclared symbol 'IEN_JJ', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:146]
+INFO: [Synth 8-11241] undeclared symbol 'IEN_KK', assumed default net type 'wire' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:147]
+WARNING: [Synth 8-8895] 'AC_reg' is already implicitly declared on line 65 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:154]
+WARNING: [Synth 8-8895] 'DR_reg' is already implicitly declared on line 64 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:154]
+WARNING: [Synth 8-8895] 'AR_reg' is already implicitly declared on line 51 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:155]
+WARNING: [Synth 8-8895] 'AR_LD' is already implicitly declared on line 103 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:158]
+WARNING: [Synth 8-8895] 'AR_INC' is already implicitly declared on line 104 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:158]
+WARNING: [Synth 8-8895] 'AR_CLR' is already implicitly declared on line 105 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:158]
+WARNING: [Synth 8-8895] 'PC_LD' is already implicitly declared on line 106 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:159]
+WARNING: [Synth 8-8895] 'PC_INC' is already implicitly declared on line 107 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:159]
+WARNING: [Synth 8-8895] 'PC_CLR' is already implicitly declared on line 108 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:159]
+WARNING: [Synth 8-8895] 'DR_LD' is already implicitly declared on line 109 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:160]
+WARNING: [Synth 8-8895] 'DR_INC' is already implicitly declared on line 110 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:160]
+WARNING: [Synth 8-8895] 'AC_LD' is already implicitly declared on line 111 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:161]
+WARNING: [Synth 8-8895] 'AC_INC' is already implicitly declared on line 112 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:161]
+WARNING: [Synth 8-8895] 'AC_CLR' is already implicitly declared on line 113 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:161]
+WARNING: [Synth 8-8895] 'IR_LD' is already implicitly declared on line 114 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:162]
+WARNING: [Synth 8-8895] 'TR_LD' is already implicitly declared on line 115 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:162]
+WARNING: [Synth 8-8895] 'bus_out' is already implicitly declared on line 50 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:193]
+WARNING: [Synth 8-8895] 'bus_sel' is already implicitly declared on line 97 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:194]
+WARNING: [Synth 8-8895] 'Bus_enable' is already implicitly declared on line 98 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:195]
+WARNING: [Synth 8-8895] 'R_signal' is already implicitly declared on line 88 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:213]
+WARNING: [Synth 8-8895] 'IEN_JJ' is already implicitly declared on line 146 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:214]
+WARNING: [Synth 8-8895] 'IEN_KK' is already implicitly declared on line 147 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:214]
+WARNING: [Synth 8-8895] 'I_signal' is already implicitly declared on line 85 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:231]
+WARNING: [Synth 8-8895] 'I_enable' is already implicitly declared on line 100 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:232]
+WARNING: [Synth 8-8895] 'E_clear' is already implicitly declared on line 127 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:244]
+WARNING: [Synth 8-8895] 'in_reg' is already implicitly declared on line 63 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:256]
+WARNING: [Synth 8-8895] 'LD_INPR' is already implicitly declared on line 134 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:257]
+WARNING: [Synth 8-8895] 'LD_OUTR' is already implicitly declared on line 135 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:271]
+WARNING: [Synth 8-8895] 'OP_code' is already implicitly declared on line 84 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:285]
+WARNING: [Synth 8-8895] 'OP_en' is already implicitly declared on line 99 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:286]
+WARNING: [Synth 8-8895] 'FGI_signal' is already implicitly declared on line 90 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:297]
+WARNING: [Synth 8-8895] 'CLR_FGI' is already implicitly declared on line 143 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:298]
+WARNING: [Synth 8-8895] 'FGO_signal' is already implicitly declared on line 91 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:310]
+WARNING: [Synth 8-8895] 'CLR_FGO' is already implicitly declared on line 144 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:311]
+WARNING: [Synth 8-8895] 'HLT_Signal' is already implicitly declared on line 141 [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:323]
+INFO: [Synth 8-6157] synthesizing module 'Mano_8bit' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:20]
+INFO: [Synth 8-6157] synthesizing module 'Seq_counter' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Seq_counter.v:22]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Counter_4bit' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Counter_4bit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Counter_4bit' (0#1) [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Counter_4bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Generic_decoder' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Generic_decoder.v:23]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Generic_decoder' (0#1) [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Generic_decoder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Seq_counter' (0#1) [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Seq_counter.v:22]
+INFO: [Synth 8-6157] synthesizing module 'memory' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/memory.v:23]
+	Parameter DATA_WIDTH bound to: 16 - type: integer 
+	Parameter ADDR_WIDTH bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'memory' (0#1) [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/memory.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Adder_logic_circuit' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Adder_logic_circuit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Adder_logic_circuit' (0#1) [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Adder_logic_circuit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Control_unit' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Control_unit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Control_unit' (0#1) [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Control_unit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Reg_File' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Reg_File.v:23]
+	Parameter N bound to: 16 - type: integer 
+	Parameter M bound to: 12 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Generic_Reg' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Generic_Reg.v:23]
+	Parameter N bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Generic_Reg' (0#1) [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Generic_Reg.v:23]
+WARNING: [Synth 8-689] width (16) of port connection 'D' does not match port width (12) of module 'Generic_Reg' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Reg_File.v:48]
+WARNING: [Synth 8-689] width (16) of port connection 'D' does not match port width (12) of module 'Generic_Reg' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Reg_File.v:61]
+INFO: [Synth 8-6157] synthesizing module 'Generic_Reg__parameterized0' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Generic_Reg.v:23]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Generic_Reg__parameterized0' (0#1) [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Generic_Reg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Reg_File' (0#1) [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Reg_File.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Control_bus' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Control_bus.v:23]
+	Parameter mux bound to: 16 - type: integer 
+	Parameter encod bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Generic_encoder' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Generic_encoder.v:23]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Generic_encoder' (0#1) [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Generic_encoder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'generic_mux' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/generic_mux.v:23]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-226] default block is never used [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/generic_mux.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'generic_mux' (0#1) [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/generic_mux.v:23]
+WARNING: [Synth 8-689] width (16) of port connection 'x0' does not match port width (12) of module 'generic_mux' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Control_bus.v:40]
+WARNING: [Synth 8-689] width (16) of port connection 'x1' does not match port width (12) of module 'generic_mux' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Control_bus.v:41]
+WARNING: [Synth 8-689] width (16) of port connection 'x2' does not match port width (12) of module 'generic_mux' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Control_bus.v:42]
+INFO: [Synth 8-6155] done synthesizing module 'Control_bus' (0#1) [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Control_bus.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Interrupt' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Interrupt.v:23]
+INFO: [Synth 8-6157] synthesizing module 'JK_ff' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/JK_ff.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'JK_ff' (0#1) [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/JK_ff.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Interrupt' (0#1) [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Interrupt.v:23]
+INFO: [Synth 8-6157] synthesizing module 'D_ff' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/D_ff.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'D_ff' (0#1) [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/D_ff.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Generic_Reg__parameterized1' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Generic_Reg.v:23]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Generic_Reg__parameterized1' (0#1) [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Generic_Reg.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Generic_decoder__parameterized0' [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Generic_decoder.v:23]
+	Parameter N bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Generic_decoder__parameterized0' (0#1) [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Generic_decoder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Mano_8bit' (0#1) [D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.srcs/sources_1/new/Mano_8bit.v:20]
+WARNING: [Synth 8-7129] Port In0[15] in module Control_bus is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In0[14] in module Control_bus is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In0[13] in module Control_bus is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In0[12] in module Control_bus is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In1[15] in module Control_bus is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In1[14] in module Control_bus is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In1[13] in module Control_bus is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In1[12] in module Control_bus is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In2[15] in module Control_bus is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In2[14] in module Control_bus is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In2[13] in module Control_bus is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In2[12] in module Control_bus is either unconnected or has no load
+WARNING: [Synth 8-7129] Port T_seqe[15] in module Control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port T_seqe[14] in module Control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port T_seqe[13] in module Control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port T_seqe[12] in module Control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port T_seqe[11] in module Control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port T_seqe[10] in module Control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port T_seqe[9] in module Control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port T_seqe[8] in module Control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port T_seqe[7] in module Control_unit is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1225.434 ; gain = 612.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1225.434 ; gain = 612.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1225.434 ; gain = 612.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1225.434 ; gain = 612.949
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   17 Bit       Adders := 1     
+	   2 Input   16 Bit       Adders := 4     
+	   2 Input   12 Bit       Adders := 2     
+	   2 Input    8 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 5     
+	               12 Bit    Registers := 2     
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---RAMs : 
+	              64K Bit	(4096 X 16 bit)          RAMs := 1     
++---Muxes : 
+	   2 Input   16 Bit        Muxes := 9     
+	   2 Input   12 Bit        Muxes := 4     
+	   2 Input    8 Bit        Muxes := 5     
+	   6 Input    1 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 53    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1562.418 ; gain = 949.934
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1562.418 ; gain = 949.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1562.418 ; gain = 949.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1681.203 ; gain = 1068.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1681.203 ; gain = 1068.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1681.203 ; gain = 1068.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1681.203 ; gain = 1068.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1681.203 ; gain = 1068.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1681.203 ; gain = 1068.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |OBUF |     8|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     8|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1681.203 ; gain = 1068.719
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 62 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1681.203 ; gain = 1068.719
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1681.203 ; gain = 1068.719
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1697.230 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1813.258 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: dbfde324
+INFO: [Common 17-83] Releasing license: Synthesis
+86 Infos, 62 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1813.258 ; gain = 1206.871
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1813.258 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Career tracks/Digial_IC/07-IcDesign_Projects/08-Mano_Design/Computer_8bits/Computer_8bits.runs/synth_1/Mano_8bit.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file Mano_8bit_utilization_synth.rpt -pb Mano_8bit_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jan  9 14:02:20 2026...

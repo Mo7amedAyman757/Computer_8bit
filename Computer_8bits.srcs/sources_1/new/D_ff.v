@@ -23,6 +23,7 @@
 module D_ff(
     input clk,
     input reset,
+    input EN,
     input D,
     output reg Q
     );
@@ -31,7 +32,8 @@ module D_ff(
         if(reset) 
             Q <= 1'b0;
         else
-            Q <= D;   
+            if(EN)
+             Q <= D;   
     end   
     
 endmodule

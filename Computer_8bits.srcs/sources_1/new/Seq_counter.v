@@ -21,7 +21,7 @@
 
 module Seq_counter
     #(parameter N = 4)(
-    input [3:0] clk,
+    input clk,
     input reset, CLR,
     input S, //HLT
     output [2**4-1:0] T

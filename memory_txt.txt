@@ -1,0 +1,57 @@
+// ===============================
+// RESET / FETCH TEST
+// ===============================
+200A   // 000: LDA 00A        ; AC = 5
+100B   // 001: ADD 00B        ; AC = 8
+300C   // 002: STA 00C        ; M[00C] = 8
+
+// ===============================
+// REGISTER-REFERENCE TESTS
+// ===============================
+7800   // 003: CLA            ; AC = 0
+7200   // 004: CMA            ; AC = FFFF
+7020   // 005: INC            ; AC = 0000 (E toggles)
+7080   // 006: CIR            ; shift right through E
+7040   // 007: CIL            ; shift left through E
+
+// ===============================
+// MEMORY BRANCHING TEST
+// ===============================
+400E   // 008: BUN 00E        ; jump
+0000   // 009: (skipped)
+
+// ===============================
+// INDIRECT ADDRESSING TEST
+// ===============================
+A00F   // 00E: LDA I 00F      ; AC = M[M[00F]]
+300D   // 00F: STA 00D        ; store indirect result
+
+// ===============================
+// ISZ TEST
+// ===============================
+600E   // 010: ISZ 00E        ; increment, skip if zero
+4000   // 011: BUN 000        ; loop if not zero
+
+// ===============================
+// I/O TEST
+// ===============================
+F800   // 012: INP            ; AC = input
+F400   // 013: OUT            ; output AC
+F080   // 014: ION            ; enable interrupts
+F040   // 015: IOF            ; disable interrupts
+
+// ===============================
+// HALT
+// ===============================
+7001   // 016: HLT
+
+// ===============================
+// DATA SECTION
+// ===============================
+0005   // 00A: DEC 5
+0003   // 00B: DEC 3
+0000   // 00C: RESULT
+0000   // 00D: INDIRECT RESULT
+0011   // 00E: LOOP COUNTER
+0012   // 00F: POINTER -> 012
+0009   // 012: INDIRECT DATA = 9
