@@ -38,7 +38,7 @@ module mano8bit_tb(
     );
 
     //3- Generate clock
-    localparam T = 10;
+    localparam T = 20;
     always begin
         clk = 1'b0;
         #(T/2);
@@ -50,7 +50,7 @@ module mano8bit_tb(
     begin
         reset = 1'b0;
         #5 reset = 1'b1;
-        #20 reset = 1'b0;
+        in = 8'b0010;
     end
     
     

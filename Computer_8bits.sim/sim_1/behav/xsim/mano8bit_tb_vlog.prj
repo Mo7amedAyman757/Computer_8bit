@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "C:/Xilinx/2025.1/Vivado/data/rsb/busdef" \
+"../../../../Computer_8bits.srcs/sources_1/new/Adder_logic_circuit.v" \
+"../../../../Computer_8bits.srcs/sources_1/new/Control_bus.v" \
+"../../../../Computer_8bits.srcs/sources_1/new/Control_unit.v" \
+"../../../../Computer_8bits.srcs/sources_1/new/Counter_4bit.v" \
+"../../../../Computer_8bits.srcs/sources_1/new/D_ff.v" \
+"../../../../Computer_8bits.srcs/sources_1/new/Generic_Reg.v" \
+"../../../../Computer_8bits.srcs/sources_1/new/Generic_decoder.v" \
+"../../../../Computer_8bits.srcs/sources_1/new/Generic_encoder.v" \
+"../../../../Computer_8bits.srcs/sources_1/new/Interrupt.v" \
+"../../../../Computer_8bits.srcs/sources_1/new/JK_ff.v" \
+"../../../../Computer_8bits.srcs/sources_1/new/Mano_8bit.v" \
+"../../../../Computer_8bits.srcs/sources_1/new/Reg_File.v" \
+"../../../../Computer_8bits.srcs/sources_1/new/Seq_counter.v" \
+"../../../../Computer_8bits.srcs/sources_1/new/generic_mux.v" \
+"../../../../Computer_8bits.srcs/sources_1/new/memory.v" \
+"../../../../Computer_8bits.srcs/sim_1/new/mano8bit_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

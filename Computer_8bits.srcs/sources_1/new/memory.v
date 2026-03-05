@@ -34,7 +34,7 @@ module memory
     reg [DATA_WIDTH-1 : 0] mem [0: DEPTH -1];
     
     initial begin
-        $readmemh("mem_txt.txt",mem);
+        $readmemh("mem_hex.mem",mem);
     end
     
     always @(posedge clk) begin

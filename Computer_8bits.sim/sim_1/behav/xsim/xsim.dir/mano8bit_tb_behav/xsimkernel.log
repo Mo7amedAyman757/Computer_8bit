@@ -1,7 +1,7 @@
-Running: xsim.dir/mano8bit_tb_behav/xsimk.exe -simmode gui -wdb mano8bit_tb_behav.wdb -simrunnum 0 -socket 59413
+Running: xsim.dir/mano8bit_tb_behav/xsimk.exe -simmode gui -wdb mano8bit_tb_behav.wdb -simrunnum 0 -socket 59558
 Design successfully loaded
-Design Loading Memory Usage: 10908 KB (Peak: 10908 KB)
-Design Loading CPU Usage: 15 ms
+Design Loading Memory Usage: 10936 KB (Peak: 10936 KB)
+Design Loading CPU Usage: 31 ms
 Simulation completed
-Simulation Memory Usage: 11836 KB (Peak: 11836 KB)
-Simulation CPU Usage: 46 ms
+Simulation Memory Usage: 19136 KB (Peak: 19136 KB)
+Simulation CPU Usage: 139 ms
